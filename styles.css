@@ -1,8 +1,19 @@
-.container {
+body.hover, html.hover, .container.hover {
+    background-color: white !important;
+}
+ .container {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+    height: 960px;
+    width: 960px;
 }
 
-.grid {
-    flex: 100px;
+/*.grid {
+    height: 60px;
+    width: 60px;
+}*/
+
+
+.hover {
+    background-color: black;
 }
