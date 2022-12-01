@@ -3,15 +3,14 @@ body.hover, html.hover, .container.hover {
 }
  .container {
     display: flex;
+    margin: auto;
     flex-wrap: wrap;
     height: 960px;
     width: 960px;
 }
-
-/*.grid {
-    height: 60px;
-    width: 60px;
-}*/
+body {
+    text-align: center;
+}
 
 
 .hover {
